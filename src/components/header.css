@@ -1,0 +1,13 @@
+.header {
+    background: #575252 url(../images/Alien_Landscape.png) repeat-x;
+    background-position: 0px 270px;
+}
+
+.alien-moon {
+    background: url(../images/Alien_Moon.png) no-repeat;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    width: 32px;
+    height: 32px;
+}
