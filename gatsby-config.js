@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'N^2 + E Studio',
+    title: 'N^2 + E Studios',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
