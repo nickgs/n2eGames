@@ -7018,6 +7018,10 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
+nes.css@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nes.css/-/nes.css-1.0.0.tgz#8f54a1440936d3b6d9002cd73d5304020e7b8cc1"
+
 next-tick@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
