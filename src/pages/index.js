@@ -16,7 +16,7 @@ const IndexPage = (data) => {
   
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <h2>Hello World</h2>
       <p>We are a family team experimenting with games. More about us <Link to="/about">here</Link>. Or check out some of our games below:</p>
       <ul className="game-list">
         <li>
