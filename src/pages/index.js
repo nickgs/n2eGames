@@ -22,16 +22,16 @@ const IndexPage = (data) => {
         <li>
         { 
         <a href={ data.data.games.edges[0].node.publicURL }>
-          <img alt = "Aliens" src={data.data.images.edges[0].node.publicURL}></img>
-          <div>Aliens</div>
+          <img alt = {data.data.images.edges[0].node.name} src={data.data.images.edges[0].node.publicURL}></img>
+          <div>{data.data.images.edges[0].node.name}</div>
         </a>
         }
         </li>
       <li>
         { 
         <a href={ data.data.games.edges[1].node.publicURL }>
-          <img alt = "Lord Ship" src={data.data.images.edges[1].node.publicURL}></img>
-          <div>Lord Ship</div>
+          <img alt = {data.data.images.edges[1].node.name} src={data.data.images.edges[1].node.publicURL}></img>
+          <div>{data.data.images.edges[1].node.name}</div>
         </a>
         }
       </li>
@@ -44,14 +44,16 @@ export const query = graphql`{
 	games: allFile(filter: { sourceInstanceName: { eq: "games"}}) {
 		edges{
       node {
-      	publicURL
+        publicURL
+        name
       }
     }
   }
   images: allFile(filter: { sourceInstanceName: { eq: "screenshots"}}) {
 		edges{
       node {
-              publicURL
+        publicURL
+        name
       }
     } 
   }
