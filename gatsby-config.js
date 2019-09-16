@@ -33,16 +33,16 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Press Start 2P`,
-            variants: [`cursive`]
-          },
-        ],
-      }
-    }
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Press Start 2P`,
+    //         variants: [`cursive`]
+    //       },
+    //     ],
+    //   }
+    // }
   ],
 }
